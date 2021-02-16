@@ -1,24 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import './App.css';
+import Fronttext from './FrontTxt.js/fronttext'
+import Bigpic from './MainPic/bigpic'
+//import Cards from './LinkCards/cards'
+//import About from './AboutPage/about'
+import ProfileCard from './MyProfileCard/ProfileCard'
+//import Emon from './emonsvg/svgpic'
+//import Image from './image.svg'
+import Skills from './Skills/Skills'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Fronttext/>
+      <Bigpic/>
+      <ProfileCard/>
+      <Skills/>
+    </>
   );
 }
 

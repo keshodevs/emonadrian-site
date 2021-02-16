@@ -1,0 +1,56 @@
+.Backet {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 700px;
+  background: no-repeat;
+  left: 80px;
+}
+.Backet .Card-One {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: rgb(77, 66, 66);
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(118, 82, 82, 0.5);
+  transition: 0.3s ease-in-out;
+}
+.Backet .Card-One:hover {
+  height: 420px;
+}
+.Backet .Card-One .imgBx {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.Backet .Card-One .imgBx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.Backet .Card-One .content-One {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.Backet .Card-One:hover .content-One {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
