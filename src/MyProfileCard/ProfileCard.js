@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser, faCoffee,  } from '@fortawesome/fontawesome-free-solid'
+//import { faUser, faCoffee,  } from '@fortawesome/fontawesome-free-solid'
 import {
     faGithubAlt,
     faGoogle,
@@ -9,7 +9,8 @@ import {
     faTelegram
   } from '@fortawesome/free-brands-svg-icons';
 import './profile.css' 
-import mypicture from '../pictures/EmonAdrian.jpeg' 
+//import mypicture from '../pictures/EmonAdrian.jpeg' 
+
 
 function ProfileCard() {
     return (
